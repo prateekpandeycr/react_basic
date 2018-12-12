@@ -1,0 +1,11 @@
+so first here will install react-redux to our app
+
+now we have to merge reat and redux 
+
+so this app will have one parent component with two child component that is song list and song Detail
+
+Redux           Reducer                 ActionCenter
+                songs list              selecting a song
+                selected Song
+
+now will crete the action for our app which will sect the song for us

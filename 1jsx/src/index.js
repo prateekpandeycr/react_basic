@@ -14,17 +14,17 @@ const App = () => {
 // return should always return the one div with 
   return (
     <div>
-    // when ever we move to class instead we use className
+    {/* // when ever we move to class instead we use className */}
       <label className="label" htmlFor="name">
-      // here we use htmlFor in place with for in html
+      {/* // here we use htmlFor in place with for in html */}
         {labelText}
       </label>
       <input id="name" type="text" />
-      // for style we use {{ }} after putting the style and with - we can replace with camelcase like background
-      // one more thing is if we want to provide the extra value in style with , instead of ;
+      {/* // for style we use {{ }} after putting the style and with - we can replace with camelcase like background
+      // one more thing is if we want to provide the extra value in style with , instead of ; */}
       <button style={{ backgroundColor: 'blue', color: 'white' }}>
         {buttonText.text}
-        // {nameFunction()}
+        {/* // {nameFunction()} */}
       </button>
     </div>
   );

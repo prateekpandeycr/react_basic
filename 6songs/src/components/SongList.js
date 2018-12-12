@@ -25,7 +25,7 @@ class SongList extends Component {
     return <div className="ui divided list">{this.renderList()}</div>;
   }
 }
-
+// by convention we say this as mapStatetoProps and state will be the store data
 const mapStateToProps = state => {
   return { songs: state.songs };
 };
